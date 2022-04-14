@@ -1,6 +1,7 @@
 :root{
     --primario: #FF5936;
-    --primarioOscuro: #B62E11;
+    --primarioOscuro: #2BADDA;
+    --primarioNav: #228CB1;
     --secundario: #FFC300;
     --secundarioOscuro: rgb(233,287,2);
     --blanco: #fff;
@@ -45,12 +46,12 @@ img{
 
 h1, h2, h3{
     text-align: center;
-    color: var(--secundario);
+    color: var(--blanco);
     font-family: var(--fuentePrincipal);
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 h2{
@@ -59,5 +60,41 @@ h2{
 
 h3{
     font-size: 2.4rem;
+}
+
+/** Header **/
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin:3rem 0;
+}
+
+/** Navegacion **/
+.navegacion{
+    color:#fff;
+    background-color: var(--primarioNav);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navegacion a{
+    color:var(--blanco)
+
+}
+
+.navegacion a:hover{
+    color: var(--secundario);
+}
+
+.navegacion a .navegacion__enlace--activo:hover{
+    color:var(--secundario)
 }
 
