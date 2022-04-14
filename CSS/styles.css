@@ -129,6 +129,14 @@ h3{
 .producto__precio{
 
 }
+
+.portada__img{
+    margin-top: 2rem;
+    width: 80%;
+    display: grid;
+    align-items: center;
+}
+
 /** Footer**/
 .footer__texto{
     font-size: 1.2rem;
