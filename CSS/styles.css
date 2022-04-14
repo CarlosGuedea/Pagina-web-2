@@ -94,7 +94,11 @@ h3{
     color: var(--secundario);
 }
 
-.navegacion a .navegacion__enlace--activo:hover{
-    color:var(--secundario)
+/** Footer**/
+.footer__texto{
+    font-size: 1.2rem;
+    background-color: var(--primarioNav);
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
 }
-
