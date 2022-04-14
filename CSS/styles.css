@@ -39,6 +39,16 @@ a{
 
 img{
     width:100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 1000px){
+    img{
+        width: 80%;
+        margin-left: 14rem;
+    }
 }
 .contendor{
     max-width: 120rem;
@@ -98,14 +108,19 @@ h3{
 /** Producto **/
 .producto{
 
+
 }
 
-.producto__imagen{
 
+.producto__imagen {
+    margin-top: 5rem;
 }
 
 .producto__informacion{
-
+    padding: 2rem;
+    background-color: var(--primarioNav);
+    text-align: center;
+    border-radius: 1rem;
 }
 .producto__nombre{
 
