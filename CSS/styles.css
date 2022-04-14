@@ -133,9 +133,13 @@ h3{
 .portada__img{
     margin-top: 2rem;
     width: 80%;
-    display: grid;
-    align-items: center;
+}
+
+.portada{
+    background-color: var(--primarioNav);
     padding: 2rem;
+    margin: 0;
+    border-radius: 1rem;
 }
 
 /** Footer**/
