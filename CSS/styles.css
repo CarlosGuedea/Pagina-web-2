@@ -131,8 +131,7 @@ h3{
 }
 
 .portada__img{
-    margin-top: 2rem;
-    width: 80%;
+    margin-top: 5rem;
 }
 
 .portada{
@@ -140,12 +139,14 @@ h3{
     padding: 2rem;
     margin: 0;
     border-radius: 1rem;
+    color:var(--secundario)
 }
 
 /** Footer**/
 .footer__texto{
     font-size: 1.2rem;
-    background-color: var(--primarioNav);
+    color: var(--secundario);
+    background-color: var(--negro);
     padding: 1rem;
     margin-top: 2rem;
     text-align: center;
