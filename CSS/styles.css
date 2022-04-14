@@ -24,6 +24,7 @@ body {
     background-color: var(--primarioOscuro);
     font-size: 1.6rem;
     line-height: 1.5;
+    font-family: var(--fuentePrincipal);
 }
 
 p {
@@ -86,14 +87,32 @@ h3{
 }
 
 .navegacion a{
-    color:var(--blanco)
-
+    color:var(--blanco);
+    margin-left: 1rem;
 }
 
 .navegacion a:hover{
     color: var(--secundario);
 }
 
+/** Producto **/
+.producto{
+
+}
+
+.producto__imagen{
+
+}
+
+.producto__informacion{
+
+}
+.producto__nombre{
+
+}
+.producto__precio{
+
+}
 /** Footer**/
 .footer__texto{
     font-size: 1.2rem;
