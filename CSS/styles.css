@@ -135,6 +135,7 @@ h3{
     width: 80%;
     display: grid;
     align-items: center;
+    padding: 2rem;
 }
 
 /** Footer**/
