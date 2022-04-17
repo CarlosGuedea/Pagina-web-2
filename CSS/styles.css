@@ -6,6 +6,7 @@
     --secundarioOscuro: rgb(233,287,2);
     --blanco: #fff;
     --negro: #000;
+    --rojo: #C70039; 
 
     --fuentePrincipal: 'Oswald';
 }
@@ -76,18 +77,24 @@ h3{
 
 /** Header **/
 .header{
-    display: flex;
-    justify-content: center;
+    display: grid;
+
+
+
 }
 
 .header__logo{
-    margin:3rem 0;
-}
+  margin: 3rem 0;
 
+}
+/**Logo**/
+.logo{
+    width: 50%;
+}
 /** Navegacion **/
 .navegacion{
     color:#fff;
-    background-color: var(--primarioNav);
+    background-color: var(--rojo);
     padding: 1rem 0;
     display: flex;
     justify-content: center;
