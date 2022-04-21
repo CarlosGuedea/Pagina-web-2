@@ -139,6 +139,14 @@ h3{
 
 /**Portada**/
 
+.portada{
+    background-color: var(--primarioNav);
+    padding: 2rem;
+    margin: 0;
+    border-radius: 1rem;
+    color:var(--blanco)
+}
+
 .portada__img{
     margin-top: 5rem;
 }
@@ -147,13 +155,7 @@ h3{
     color: var(--secundario);
 }
 
-.portada{
-    background-color: var(--primarioNav);
-    padding: 2rem;
-    margin: 0;
-    border-radius: 1rem;
-    color:var(--secundario)
-}
+
 
 /** Footer**/
 .footer__texto{
