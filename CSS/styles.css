@@ -137,8 +137,14 @@ h3{
 
 }
 
+/**Portada**/
+
 .portada__img{
     margin-top: 5rem;
+}
+
+.portada__autor{
+    color: var(--secundario);
 }
 
 .portada{
