@@ -106,8 +106,7 @@ h3{
 
 .navegacion a{
     color:var(--blanco);
-    margin-left: 1rem;
-    margin-right: 1rem;
+
 }
 
 .navegacion a:hover{
