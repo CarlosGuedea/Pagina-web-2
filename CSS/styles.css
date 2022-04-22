@@ -163,6 +163,22 @@ h3{
     color: var(--secundario);
 }
 
+.portada__instagram{
+    font-size: 3.4rem;
+    text-decoration: underline;
+    color: var(--secundario);
+    text-align: center;
+    margin-left: 37%;
+}
+
+.portada__facebook{
+    font-size: 3.4rem;
+    text-decoration: underline;
+    color: var(--secundario);
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 1rem;
+}
 
 
 /** Footer**/
