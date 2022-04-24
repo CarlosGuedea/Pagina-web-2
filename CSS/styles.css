@@ -167,6 +167,13 @@ h3{
     color: var(--secundario);
 }
 
+.portada__paypal{
+    margin-top: 1rem;
+    color:var(--secundario);
+    font-size: 3.4rem;
+    text-decoration: underline;
+}
+
 .portada__instagram{
     color:var(--secundario);
     font-size: 3.4rem;
