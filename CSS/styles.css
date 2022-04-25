@@ -174,10 +174,42 @@ h3{
     text-decoration: underline;
 }
 
+@media(max-width: 1100px){
+    .portada__paypal{
+        font-size: 2rem;
+    }
+}
+
+.portada__telefono{
+
+}
+
+@media(max-width: 1100px){
+    .portada__telefono{
+        font-size: 2rem;
+    }
+}
+
+.portada__correo{
+
+}
+
+@media(max-width: 1100px){
+    .portada__correo{
+        font-size: 2rem;
+    }
+}
+
 .portada__instagram{
     color:var(--secundario);
     font-size: 3.4rem;
     text-decoration: underline;
+}
+
+@media(max-width: 1100px){
+    .portada__instagram{
+        font-size: 2rem;
+    }
 }
 
 .portada__facebook{
@@ -185,6 +217,12 @@ h3{
     color: var(--secundario);
     font-size: 3.4rem;
     text-decoration: underline;
+}
+
+@media(max-width: 1100px){
+    .portada__facebook{
+        font-size: 2rem;
+    }
 }
 
 /** Footer**/
