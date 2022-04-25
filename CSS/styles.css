@@ -167,6 +167,12 @@ h3{
     color: var(--secundario);
 }
 
+@media(max-width: 1100px){
+    .portada__autor{
+        font-size: 3rem;
+    }
+}
+
 .portada__paypal{
     margin-top: 2rem;
     color:var(--secundario);
