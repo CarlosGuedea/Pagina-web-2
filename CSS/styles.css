@@ -99,9 +99,9 @@ h3{
     color:#fff;
     background-color: var(--rojo);
     padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     font-family: var(--fuentePrincipal);
     font-size: 3rem;
     font-weight: bold;
