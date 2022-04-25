@@ -107,6 +107,12 @@ h3{
     font-weight: bold;
 }
 
+@media(max-width:1100px){
+    .navegacion{
+        font-size: 2rem;
+    }
+}
+
 .navegacion a{
     color:var(--blanco);
 
@@ -219,6 +225,12 @@ h3{
     }
 }
 
+@media(max-width:1100px){
+    .portada__instagram-etiqueta{
+        font-size: 2rem;
+    }
+}
+
 .portada__facebook{
     margin-top: 2rem;
     color: var(--secundario);
@@ -228,6 +240,13 @@ h3{
 
 @media(max-width: 1100px){
     .portada__facebook{
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:1100px){
+    .portada__facebook-etiqueta{
         font-size: 2rem;
     }
 }
