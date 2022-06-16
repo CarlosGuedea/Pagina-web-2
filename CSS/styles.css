@@ -36,6 +36,12 @@ p {
     color: var(--blanco)
 }
 
+@media(max-width:1000px){
+    p{
+        font-size: 1.8rem;
+    }
+}
+
 a{
     text-decoration: none;
 }
@@ -139,6 +145,13 @@ h3{
     margin-left: 10rem;
     margin-right: 10rem;
 }
+
+@media(max-width:1000px){
+    .producto__informacion{
+        margin: 0;
+    }
+}
+
 .producto__nombre{
 
 }
@@ -150,6 +163,11 @@ h3{
     font-size: 3rem;
     text-decoration: underline;
     color: var(--secundario)
+}
+@media(max-width:1000px){
+    .producto__link{
+        font-size: 2.5rem;
+    }
 }
 
 /**Portada**/
