@@ -47,6 +47,7 @@ a{
 }
 
 img{
+    margin-top: 5rem;
     width:100%;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
