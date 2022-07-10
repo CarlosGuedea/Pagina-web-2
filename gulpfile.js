@@ -3,6 +3,9 @@ const { src, dest, watch, parallel } = require("gulp");
 //CSS
 const sass = require("gulp-sass")(require("sass"));
 const plumber = require("gulp-plumber");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+const postcss = require("gulp-postcss");
 
 //Imagenes
 const webp = require("gulp-webp");
@@ -47,7 +50,11 @@ function javascript(done) {
 }
 
 function CSS(done) {
-  src("scss/**/*.scss").pipe(plumber()).pipe(sass()).pipe(dest(CSS));
+  src("scss/**/*.scss")
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(cssnano)
+    .pipe(dest(CSS));
   done();
 }
 
