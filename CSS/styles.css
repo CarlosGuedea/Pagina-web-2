@@ -135,6 +135,7 @@ h3{
 
 .producto__imagen {
     margin-top: 5rem;
+    height: 100%;
 }
 
 .producto__informacion{
