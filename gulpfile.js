@@ -6,13 +6,36 @@ const plumber = require("gulp-plumber");
 
 //Imagenes
 const webp = require("gulp-webp");
+const imagemin = require("gulp-imagemin");
+const cache = require("gulp-cache");
+const avif = require("gulp-avif");
 
 function versionWebp(done) {
   const opciones = {
     quality: 50,
   };
 
-  src("img/*.jpeg").pipe(webp(opciones)).pipe(dest("build/img"));
+  src("img/*.{jpeg,png,jpg}").pipe(webp(opciones)).pipe(dest("build/img"));
+  done();
+}
+
+function imagenes(done) {
+  const opciones = {
+    optimizationLevel: 3,
+  };
+
+  src("img/*.{jpeg,jpg}")
+    .pipe(cache(imagemin(opciones)))
+    .pipe(dest("build/img"));
+  done();
+}
+
+function versionAvif(done) {
+  const opciones = {
+    quality: 50,
+  };
+
+  src("img/*.{jpeg,png,jpg}").pipe(avif(opciones)).pipe(dest("build/img"));
   done();
 }
 
@@ -27,4 +50,6 @@ function dev(done) {
 }
 
 exports.versionWebp = versionWebp;
-exports.dev = parallel(dev, versionWebp);
+exports.versionWebp = versionAvif;
+exports.imagenes = imagenes;
+exports.dev = parallel(dev, versionWebp, imagenes, versionAvif);
