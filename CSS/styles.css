@@ -190,6 +190,8 @@ h3{
 
 .portada__img{
     margin-top: 1rem;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .portada__autor{
