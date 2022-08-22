@@ -50,7 +50,11 @@ function javascript(done) {
 }
 
 function CSS(done) {
-  src("scss/**/*.scss").pipe(plumber()).pipe(sass()).pipe(dest(CSS));
+  src("scss/**/*.scss")
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(cssnano)
+    .pipe(dest(CSS));
   done();
 }
 

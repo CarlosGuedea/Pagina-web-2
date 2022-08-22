@@ -14,20 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oswald:wght@300&display=swap"
       rel="stylesheet"
     />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-226186387-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-226186387-1");
-    </script>
   </head>
   <body>
     <header class="header">
@@ -139,13 +125,32 @@
           href="https://www.facebook.com/ArtCol-Galeria-101568592541689"
           >ArtColGalería</a
         >
+        
       </div>
     </div>
-
+    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="700" data-numposts="5"></div>
     <footer>
       <p class="footer__texto">
         ArtCol Galería de arte. Todos los derechos reservados 2022
       </p>
     </footer>
   </body>
+
+  <div id="fb-root"></div>
+<!--Script de facebook-->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="S4rZBryp"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+async
+src="https://www.googletagmanager.com/gtag/js?id=UA-226186387-1"
+></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "UA-226186387-1");
+</script>
 </html>
